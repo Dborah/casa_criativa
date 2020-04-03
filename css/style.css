@@ -1,8 +1,35 @@
 body {
     background: #e5e5e5;
     color: #25282B;
-    text-align: center;
+    margin: 0;
 }
+
+#container {
+    width: 90%;
+    max-width: 980px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    display: flex;
+
+}
+
+#intro {
+    width: 300px;
+    margin-right: 20px;
+}
+
+main{
+    margin: 32px 100px 0 0;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+}
+
 
 button {
     color: #ff5E84;
@@ -16,7 +43,11 @@ button.fat{
     background: #ff5E84;  
 }
 
-#footer a {
+footer  {
+    text-align: center;
+}
+
+footer a {
     color: #25282B;
     text-decoration: none;
 }
